@@ -21,7 +21,6 @@ namespace PredictorApp
 
         public static string GetPrediction()
         {
-           //List<string> list = new List<string>() { "123", "asd" ,"нЕТ", "qweqweqwe"};
             Predictor predictor = new Predictor();
             return predictor.EquallyProbability();
         }
